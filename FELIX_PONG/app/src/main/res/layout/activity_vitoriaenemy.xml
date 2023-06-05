@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VITORIAENEMY"
+    android:background="#04747c">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOCÊ PERDEU\n\nTENTE NOVAMENTE"
+        android:textSize="60px"
+        android:textStyle="bold"
+        android:layout_marginTop="100px"
+        android:fontFamily="@font/alfa_slab_one"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/joga"
+        android:layout_marginTop="350px"
+        android:backgroundTint="#FE2A14"
+        android:text="JOGAR NOVAMENTE"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/alfa_slab_one"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fecha"
+        android:layout_marginTop="75px"
+        android:backgroundTint="#FE2A14"
+        android:text="FECHAR JOGO"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/alfa_slab_one"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60px"
+        app:srcCompat="@drawable/felix_pong" />
+
+</LinearLayout>

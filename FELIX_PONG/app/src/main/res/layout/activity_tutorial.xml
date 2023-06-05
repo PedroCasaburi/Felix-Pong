@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#04747c"
+    tools:context=".TUTORIAL">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TUTORIAL"
+        android:textSize="80px"
+        android:textStyle="bold"
+        android:layout_marginTop="100px"
+        android:fontFamily="@font/alfa_slab_one"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:text="Para jogar pressione INICIAR JOGO\n\nSelecione a Dificuldade \n\nEncoste o dedo na raquete e movimente para acertar a bola"
+        android:fontFamily="@font/alfa_slab_one"
+        android:layout_marginTop="100px"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonjogar"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="INICIAR JOGO"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="150px"
+        android:backgroundTint="#FE2A14"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60px"
+        app:srcCompat="@drawable/felix_pong" />
+
+</LinearLayout>

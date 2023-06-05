@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#04747c"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginRight="95px"
+        android:layout_width="wrap_content"
+        android:layout_height="900px"
+        app:srcCompat="@drawable/logo_felix_pong" />
+
+    <Button
+        android:id="@+id/buttoniniciarjogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:backgroundTint="#FE2A14"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="INICIAR JOGO"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttontutorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70px"
+        android:backgroundTint="#FE2A14"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="TUTORIAL"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/buttoncreditos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70px"
+        android:backgroundTint="#FE2A14"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="CRÉDITOS"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</LinearLayout>
